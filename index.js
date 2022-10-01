@@ -2,6 +2,9 @@ const { Client, EmbedBuilder, GatewayIntentBits } = require('discord.js');
 const dotenv = require('dotenv');
 dotenv.config();
 
+
+console.log(process.env)
+
 const TwitchApi = require("node-twitch").default;
 const twitch = new TwitchApi({
     client_id: process.env.TWITCH_CLIENT_ID,
