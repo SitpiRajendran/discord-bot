@@ -1,6 +1,5 @@
 const { Client, EmbedBuilder, GatewayIntentBits } = require('discord.js');
 const dotenv = require('dotenv');
-const { stream } = require('undici');
 dotenv.config();
 
 const TwitchApi = require("node-twitch").default;
