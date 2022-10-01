@@ -13,7 +13,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    environment: config-bot
     strategy:
       matrix:
         node-version: [17.x]
